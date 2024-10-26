@@ -26,3 +26,18 @@
 .templateengine/
 .var/
 .viminfo
+.vim/
+.vscode/
+.wget-hsts
+.xsession-errors
+Desktop/
+Documents/
+Downloads/
+Games/
+IdeaProjects/
+RiderProjects/
+VirtualBox VMs/
+coding/
+dotnet-install.sh
+snap/
+starter/
