@@ -40,7 +40,14 @@ let mapleader = " "
 nmap <leader>h <Action>(PreviousTab)
 nmap <leader>l <Action>(NextTab)
 nmap <leader><C-l> <Action>(SplitVertically)
-nmap gh <Action>(ShowHoverInfo)
+nmap <leader>gh <Action>(ShowHoverInfo)
+nmap <leader>s <Action>(ShowUsages)
+
+nmap [[ <Action>(MethodUp)
+nmap ]] <Action>(MethodDown)
+
+set showmode
+set visualbell
 
 " set smartcase
 " set surround
