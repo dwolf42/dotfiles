@@ -41,6 +41,7 @@ nmap <leader>h <Action>(PreviousTab)
 nmap <leader>l <Action>(NextTab)
 nmap <leader><C-l> <Action>(SplitVertically)
 nmap <leader>gh <Action>(ShowHoverInfo)
+nmap <leader>gD <Actions>(GotoDeclaration)
 nmap <leader>s <Action>(ShowUsages)
 
 nmap [[ <Action>(MethodUp)
