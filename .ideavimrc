@@ -37,10 +37,12 @@ Plug 'tpope/vim-commentary'
 "" Map \b to toggle the breakpoint on the current line
 "map \b <Action>(ToggleLineBreakpoint)
 let mapleader = " "
-nmap <leader>h <Action>(PreviousTab)
-nmap <leader>l <Action>(NextTab)
+nmap <leader>j <Action>(PreviousTab)
+nmap <leader>k <Action>(NextTab)
+nmap <leader>h <Action>(PrevSplitter)
+nmap <leader>l <Action>(NextSplitter)
 nmap <leader><C-l> <Action>(SplitVertically)
-nmap <leader>gh <Action>(ShowHoverInfo)
+nmap <leader><M-g-h> <Action>(ShowHoverInfo)
 nmap <leader>gD <Actions>(GotoDeclaration)
 nmap <leader>s <Action>(ShowUsages)
 

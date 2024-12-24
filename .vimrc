@@ -145,6 +145,18 @@ nnoremap Y y$
 " Map the F3 key to toggle NERDTree open and close.
 nnoremap <F3> :NERDTreeToggle<cr>
 
+" Swap j and k in normal mode
+" nnoremap j k
+" nnoremap k j
+
+" Swap j and k in visual mode
+" vnoremap j k 
+" vnoremap k j
+
+" Swap j and k in operator-pending  mode
+" onoremap j k 
+" onoremap k j
+
 
 " }}}
 
