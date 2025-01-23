@@ -2,6 +2,10 @@
 
 " Settings code goes here.
 
+" Disable bell for WSL bash
+set visualbell
+set t_vb=
+
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
