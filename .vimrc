@@ -2,6 +2,18 @@
 
 " Settings code goes here.
 
+" Change cursor in insert mode
+let &t_SI = "\e[3 q"
+let &t_EI = "\e[2 q"
+" To change appeareance, change numers to:
+" Ps = 0  -> blinking block.
+" Ps = 1  -> blinking block (default).
+" Ps = 2  -> steady block.
+" Ps = 3  -> blinking underline.
+" Ps = 4  -> steady underline.
+" Ps = 5  -> blinking bar (xterm).
+" Ps = 6  -> steady bar (xterm).
+
 " Disable bell for WSL bash
 set visualbell
 set t_vb=
