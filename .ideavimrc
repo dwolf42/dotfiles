@@ -45,6 +45,7 @@ nmap <leader><C-l> <Action>(SplitVertically)
 nmap <leader><M-g-h> <Action>(ShowHoverInfo)
 nmap <leader>gD <Actions>(GotoDeclaration)
 nmap <leader>s <Action>(ShowUsages)
+nmap <leader>p <Action>(TogglePowerSave)
 
 nmap [[ <Action>(MethodUp)
 nmap ]] <Action>(MethodDown)
