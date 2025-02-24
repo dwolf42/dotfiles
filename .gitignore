@@ -41,3 +41,8 @@ coding/
 dotnet-install.sh
 snap/
 starter/
+.m2/
+.mullvad-browser/
+.swn
+.swo
+Pictures/
