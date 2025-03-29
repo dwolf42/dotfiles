@@ -1,0 +1,6 @@
+# ignore everything
+*
+# exceptions
+!/.vimrc
+!/.ideavimrc
+!.config/nvim/
