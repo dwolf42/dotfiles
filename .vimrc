@@ -60,10 +60,8 @@ set nobackup
 " Do not let cursor scroll below or above N number of lines when scrolling.
 set scrolloff=10
 
-" Wrap lines. Allow long lines to extend as far as the line goes.
-" set wrap
-
 " Do not wrap lines. Allow long lines to extend as far as the line goes.
+" Note: In txt files this setting is overwritten by autocmd (see said section)
 set nowrap
 
 " While searching though a file incrementally highlight matching characters as you type.
@@ -186,6 +184,11 @@ augroup filetype_vim
     autocmd FileType vim setlocal foldmethod=marker
 augroup END
 
+augroup TxtWrap
+  autocmd!
+  autocmd FileType txt setlocal wrap linebreak
+  autocmd BufLeave *.txt setlocal nowrap nolinebreak
+augroup END
 
 
 " More Vimscripts code goes here.
