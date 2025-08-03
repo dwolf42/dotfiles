@@ -62,7 +62,9 @@ set scrolloff=10
 
 " Do not wrap lines. Allow long lines to extend as far as the line goes.
 " Note: In txt files this setting is overwritten by autocmd (see said section)
-set nowrap
+
+" setlocal nowrap
+set linebreak 
 
 " While searching though a file incrementally highlight matching characters as you type.
 set incsearch
@@ -186,14 +188,14 @@ augroup END
 
 augroup TxtWrap
   autocmd!
-  autocmd FileType txt setlocal wrap linebreak
-  autocmd BufLeave *.txt setlocal nowrap nolinebreak
+  autocmd FileType * if &filetype !=# 'txt' | setlocal nowrap | endif
 augroup END
 
 
 " More Vimscripts code goes here.
 
 " }}}
+
 
 
 " STATUS LINE ------------------------------------------------------------ {{{
