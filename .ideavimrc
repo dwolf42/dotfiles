@@ -46,6 +46,7 @@ nmap <leader><M-g-h> <Action>(ShowHoverInfo)
 nmap <leader>gD <Actions>(GotoDeclaration)
 nmap <leader>s <Action>(ShowUsages)
 nmap <leader>p <Action>(TogglePowerSave)
+nmap <leader><C-s> <Action>(SaveAll)
 
 nmap [[ <Action>(MethodUp)
 nmap ]] <Action>(MethodDown)
